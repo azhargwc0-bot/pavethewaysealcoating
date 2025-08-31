@@ -1,16 +1,33 @@
 ---
 deployment:
   tasks:
+    # Set deployment path
     - export DEPLOYPATH=$HOME/public_html/
+    
+    # Deploy main HTML pages
     - /bin/cp -R index.html $DEPLOYPATH
     - /bin/cp -R about-us-katy-seal-coating.html $DEPLOYPATH
     - /bin/cp -R faq-katy-seal-coating.html $DEPLOYPATH
     - /bin/cp -R seal-coating-richmond-tx.html $DEPLOYPATH
+    
+    # Deploy blog content
     - /bin/cp -R blog/ $DEPLOYPATH
+    
+    # Deploy assets and components
     - /bin/cp -R images/ $DEPLOYPATH
     - /bin/cp -R _includes/ $DEPLOYPATH
     - /bin/cp -R _templates/ $DEPLOYPATH
     - /bin/cp -R styles.css $DEPLOYPATH
+    
+    # Deploy SEO and configuration files
     - /bin/cp -R robots.txt $DEPLOYPATH
     - /bin/cp -R sitemap.xml $DEPLOYPATH
     - /bin/cp -R .htaccess $DEPLOYPATH
+    
+    # Set proper permissions
+    - find $DEPLOYPATH -type f -name "*.html" -exec chmod 644 {} \;
+    - find $DEPLOYPATH -type f -name "*.css" -exec chmod 644 {} \;
+    - find $DEPLOYPATH -type f -name "*.js" -exec chmod 644 {} \;
+    - chmod 644 $DEPLOYPATH/.htaccess
+    - chmod 644 $DEPLOYPATH/robots.txt
+    - chmod 644 $DEPLOYPATH/sitemap.xml
