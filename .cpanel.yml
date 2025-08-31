@@ -1,0 +1,16 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=$HOME/public_html/
+    - /bin/cp -R index.html $DEPLOYPATH
+    - /bin/cp -R about-us-katy-seal-coating.html $DEPLOYPATH
+    - /bin/cp -R faq-katy-seal-coating.html $DEPLOYPATH
+    - /bin/cp -R seal-coating-richmond-tx.html $DEPLOYPATH
+    - /bin/cp -R blog/ $DEPLOYPATH
+    - /bin/cp -R images/ $DEPLOYPATH
+    - /bin/cp -R _includes/ $DEPLOYPATH
+    - /bin/cp -R _templates/ $DEPLOYPATH
+    - /bin/cp -R styles.css $DEPLOYPATH
+    - /bin/cp -R robots.txt $DEPLOYPATH
+    - /bin/cp -R sitemap.xml $DEPLOYPATH
+    - /bin/cp -R .htaccess $DEPLOYPATH
