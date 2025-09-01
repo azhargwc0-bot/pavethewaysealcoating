@@ -33,17 +33,17 @@
         .hero { min-height: 100vh; display: flex; align-items: center; background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%); }
         
         /* Rosenberg Page Layout Styles */
-        /* Use consistent 3-column grids from styles.css */
-        .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
-        .neighborhoods-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
-        .process-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; max-width: 1200px; margin: 0 auto; }
+        /* Use consistent 3-column grids from styles.css with equal heights */
+        .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; align-items: stretch; }
+        .neighborhoods-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; align-items: stretch; }
+        .process-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; max-width: 1200px; margin: 0 auto; align-items: stretch; }
         
         /* Responsive grid adjustments */
         @media (max-width: 1024px) {
             .services-grid, .neighborhoods-grid { grid-template-columns: repeat(2, 1fr); }
             .process-steps { grid-template-columns: repeat(2, 1fr); }
         }
-        .process-step { text-align: center; padding: 1.5rem; background: #f8f9fa; border-radius: 0.75rem; border: 1px solid rgba(251, 198, 7, 0.2); }
+        .process-step { text-align: center; padding: 1.5rem; background: #f8f9fa; border-radius: 0.75rem; border: 1px solid rgba(251, 198, 7, 0.2); display: flex; flex-direction: column; height: 100%; }
         .step-number { width: 60px; height: 60px; background: linear-gradient(135deg, #fbc607, #e6b000); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 800; color: #000000; margin: 0 auto 1rem; }
         
         /* Better spacing and layout */
@@ -58,10 +58,11 @@
         .faq-question:hover { background: rgba(251, 198, 7, 0.05); }
         
         @media (max-width: 768px) {
-            .services-grid { grid-template-columns: 1fr; }
-            .neighborhoods-grid { grid-template-columns: 1fr; }
-            .process-steps { grid-template-columns: 1fr; }
+            .services-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+            .neighborhoods-grid { grid-template-columns: 1fr; gap: 1rem; }
+            .process-steps { grid-template-columns: 1fr; gap: 1.5rem; }
             .section-title { font-size: 2rem; }
+            .process-step { padding: 1.25rem; }
         }
     </style>
     
