@@ -33,9 +33,16 @@
         .hero { min-height: 100vh; display: flex; align-items: center; background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%); }
         
         /* Simonton Page Layout Styles */
-        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
-        .neighborhoods-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
-        .process-steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto; }
+        /* Use consistent 3-column grids from styles.css */
+        .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+        .neighborhoods-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+        .process-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; max-width: 1200px; margin: 0 auto; }
+        
+        /* Responsive grid adjustments */
+        @media (max-width: 1024px) {
+            .services-grid, .neighborhoods-grid { grid-template-columns: repeat(2, 1fr); }
+            .process-steps { grid-template-columns: repeat(2, 1fr); }
+        }
         .process-step { text-align: center; padding: 1.5rem; background: #f8f9fa; border-radius: 0.75rem; border: 1px solid rgba(251, 198, 7, 0.2); }
         .step-number { width: 60px; height: 60px; background: linear-gradient(135deg, #fbc607, #e6b000); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 800; color: #000000; margin: 0 auto 1rem; }
         
@@ -204,7 +211,7 @@
                     </div>
                 </div>
                 <div class="hero-actions">
-                    <a href="tel:(877) 478-2959" class="btn btn-primary">
+                    <a href="tel:(877) 478-2959" class="btn btn-primary btn-large">
                         <span class="btn-icon">📞</span>
                         <span>Call Now: (877) 478-2959</span>
                     </a>
@@ -228,7 +235,7 @@
                 </p>
             </div>
             
-            <div class="services-grid">
+            <div class="why-choose-grid">
                 <div class="service-card">
                     <div class="service-header">
                         <div class="service-icon" style="font-size: 3rem;">🏡</div>
@@ -287,7 +294,7 @@
                 </p>
             </div>
             
-            <div class="services-grid">
+            <div class="why-choose-grid">
                 <div class="service-card">
                     <div class="service-header">
                         <div class="service-icon" style="font-size: 3rem;">🌾</div>

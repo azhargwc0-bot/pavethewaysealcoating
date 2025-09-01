@@ -33,9 +33,16 @@
         .hero { min-height: 100vh; display: flex; align-items: center; background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%); }
         
         /* Rosenberg Page Layout Styles */
-        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
-        .neighborhoods-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
-        .process-steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto; }
+        /* Use consistent 3-column grids from styles.css */
+        .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+        .neighborhoods-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+        .process-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; max-width: 1200px; margin: 0 auto; }
+        
+        /* Responsive grid adjustments */
+        @media (max-width: 1024px) {
+            .services-grid, .neighborhoods-grid { grid-template-columns: repeat(2, 1fr); }
+            .process-steps { grid-template-columns: repeat(2, 1fr); }
+        }
         .process-step { text-align: center; padding: 1.5rem; background: #f8f9fa; border-radius: 0.75rem; border: 1px solid rgba(251, 198, 7, 0.2); }
         .step-number { width: 60px; height: 60px; background: linear-gradient(135deg, #fbc607, #e6b000); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 800; color: #000000; margin: 0 auto 1rem; }
         
@@ -240,7 +247,7 @@
                     </div>
                 </div>
                 <div class="hero-actions">
-                    <a href="tel:(877) 478-2959" class="btn btn-primary">
+                    <a href="tel:(877) 478-2959" class="btn btn-primary btn-large">
                         <span class="btn-icon">📞</span>
                         <span>Call Now: (877) 478-2959</span>
                     </a>
@@ -264,7 +271,7 @@
                 </p>
             </div>
             
-            <div class="services-grid">
+            <div class="why-choose-grid">
                 <div class="service-card">
                     <div class="service-header">
                         <div class="service-icon" style="font-size: 3rem;">🏠</div>
@@ -323,7 +330,7 @@
                 </p>
             </div>
             
-            <div class="services-grid">
+            <div class="why-choose-grid">
                 <div class="service-card">
                     <div class="service-header">
                         <div class="service-icon" style="font-size: 3rem;">🏆</div>
@@ -399,33 +406,33 @@
                 </p>
             </div>
             
-            <div class="neighborhoods-grid">
-                <div class="neighborhood-card">
+            <div class="why-choose-grid">
+                <div class="service-card">
                     <h3>Historic Downtown Rosenberg</h3>
                     <p>Professional seal coating for Rosenberg's historic downtown area including commercial buildings and municipal parking areas.</p>
                 </div>
                 
-                <div class="neighborhood-card">
+                <div class="service-card">
                     <h3>Pecan Grove</h3>
                     <p>Premium residential seal coating for Pecan Grove's established neighborhoods with mature trees and well-maintained properties.</p>
                 </div>
                 
-                <div class="neighborhood-card">
+                <div class="service-card">
                     <h3>Brazos Country</h3>
                     <p>Expert asphalt maintenance for Brazos Country's upscale residential community and extensive private road systems.</p>
                 </div>
                 
-                <div class="neighborhood-card">
+                <div class="service-card">
                     <h3>Rosenberg Industrial District</h3>
                     <p>Commercial and industrial seal coating for Rosenberg's manufacturing facilities, warehouses, and distribution centers.</p>
                 </div>
                 
-                <div class="neighborhood-card">
+                <div class="service-card">
                     <h3>Rosenberg Railyard Area</h3>
                     <p>Heavy-duty asphalt maintenance for properties near the railroad district with specialized commercial sealing needs.</p>
                 </div>
                 
-                <div class="neighborhood-card">
+                <div class="service-card">
                     <h3>New Rosenberg Developments</h3>
                     <p>Residential and commercial seal coating for new construction and growing subdivisions throughout Rosenberg.</p>
                 </div>
@@ -496,11 +503,11 @@
                     Get your free estimate from Rosenberg's premier seal coating contractors. Licensed, insured, and locally trusted.
                 </p>
                 
-                <div class="hero-buttons" style="margin-top: 2rem;">
-                    <a href="tel:(877) 478-2959" class="btn-primary" style="background: #000000; color: #ffffff; margin-right: 1rem;">
+                <div class="hero-actions" style="margin-top: 2rem;">
+                    <a href="tel:(877) 478-2959" class="btn btn-primary btn-large" style="background: #000000; color: #ffffff; margin-right: 1rem;">
                         📞 Call (877) 478-2959 Now
                     </a>
-                    <a href="index.html#contact" class="btn-secondary" style="border: 2px solid #000000; color: #000000;">
+                    <a href="index.html#contact" class="btn btn-primary" style="border: 2px solid #000000; color: #000000; background: transparent;">
                         Get Free Rosenberg Quote
                     </a>
                 </div>

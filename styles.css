@@ -1164,6 +1164,11 @@ section {
         padding: var(--spacing-5) var(--spacing-3);
     }
     
+    .process-steps {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-6);
+    }
+    
     .about-content {
         grid-template-columns: 1fr;
         gap: var(--spacing-12);
@@ -1325,7 +1330,7 @@ section {
 /* Service Page Specific Styles */
 .process-steps {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: var(--spacing-8);
     max-width: 1200px;
     margin: 0 auto;
