@@ -175,4 +175,36 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+    
+    <!-- Micro-Niche Service Pages -->
+    <url>
+        <loc>https://pavethewaysealcoating.com/residential-driveway-seal-coating-katy-tx.html</loc>
+        <lastmod>2025-09-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://pavethewaysealcoating.com/home-driveway-crack-repair-katy-tx.html</loc>
+        <lastmod>2025-09-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://pavethewaysealcoating.com/residential-asphalt-maintenance-katy-tx.html</loc>
+        <lastmod>2025-09-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://pavethewaysealcoating.com/driveway-sealcoating-near-me-katy-tx.html</loc>
+        <lastmod>2025-09-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://pavethewaysealcoating.com/commercial-parking-lot-seal-coating-katy-tx.html</loc>
+        <lastmod>2025-09-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
