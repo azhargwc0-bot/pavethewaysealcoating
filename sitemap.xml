@@ -261,4 +261,36 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+    
+    <!-- Phase 4A: Major Texas Cities (High Search Volume) -->
+    <url>
+        <loc>https://pavethewaysealcoating.com/seal-coating-houston-tx.html</loc>
+        <lastmod>2025-09-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://pavethewaysealcoating.com/seal-coating-dallas-tx.html</loc>
+        <lastmod>2025-09-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://pavethewaysealcoating.com/seal-coating-austin-tx.html</loc>
+        <lastmod>2025-09-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://pavethewaysealcoating.com/seal-coating-san-antonio-tx.html</loc>
+        <lastmod>2025-09-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://pavethewaysealcoating.com/seal-coating-fort-worth-tx.html</loc>
+        <lastmod>2025-09-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
 </urlset>
