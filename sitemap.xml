@@ -385,4 +385,88 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+    
+    <!-- Seasonal Blog Posts -->
+    <url>
+        <loc>https://pavethewaysealcoating.com/blog/spring-seal-coating-checklist-katy-tx-2025.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pavethewaysealcoating.com/blog/summer-asphalt-maintenance-tips-texas.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pavethewaysealcoating.com/blog/fall-driveway-preparation-katy-tx.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pavethewaysealcoating.com/blog/winter-asphalt-protection-texas.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Emergency/Urgent Content -->
+    <url>
+        <loc>https://pavethewaysealcoating.com/blog/emergency-pothole-repair-katy-tx.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pavethewaysealcoating.com/blog/same-day-crack-sealing-services-katy-tx.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pavethewaysealcoating.com/blog/urgent-asphalt-repair-after-storm-damage.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pavethewaysealcoating.com/blog/24-7-commercial-parking-lot-emergency-repair.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pavethewaysealcoating.com/blog/post-storm-driveway-repair-katy-tx.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pavethewaysealcoating.com/blog/hurricane-season-asphalt-damage-prevention.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Additional Advanced Blog Posts -->
+    <url>
+        <loc>https://pavethewaysealcoating.com/blog/acrylic-vs-coal-tar-seal-coating-katy-tx.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pavethewaysealcoating.com/blog/seal-coating-vs-asphalt-resurfacing-katy-tx.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pavethewaysealcoating.com/blog/diy-seal-coating-vs-professional-services-katy-tx.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
