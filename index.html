@@ -18,7 +18,10 @@
     <!-- SEO & Performance Optimization -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"></noscript>
+    <link rel="preload" href="styles.css?v=2.9" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="styles.css?v=2.9"></noscript>
     <meta name="geo.region" content="US-TX">
     <meta name="geo.placename" content="Katy, Texas">
     <meta name="geo.position" content="29.7858;-95.8248">
@@ -64,8 +67,6 @@
         
     </style>
     
-    <!-- Main stylesheet -->
-    <link rel="stylesheet" href="styles.css?v=2.9">
     
     <!-- Breadcrumb Navigation Schema -->
     <script type="application/ld+json">
