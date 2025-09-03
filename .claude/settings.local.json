@@ -15,7 +15,8 @@
       "Bash(find:*)",
       "WebSearch",
       "Bash(git add:*)",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(sed:*)"
     ],
     "deny": [],
     "ask": []
