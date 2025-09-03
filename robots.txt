@@ -1,16 +1,37 @@
+# Robots.txt for Pave The Way Seal Coating
+# https://pavethewaysealcoating.com/robots.txt
+
 User-agent: *
 Allow: /
 
-# Sitemap location
-Sitemap: https://pavethewaysealcoating.com/sitemap.xml
-
-# Allow all search engines to crawl the site
-# Pave The Way Seal Coating - Katy TX seal coating services
-# Driveway sealing, asphalt maintenance, crack filling, commercial services
-
-# Crawl delay (optional - removes if causing issues)
+# Priority crawling for main pages
 Crawl-delay: 1
 
-# Disallow any admin or temporary directories (add if needed)
-# Disallow: /admin/
-# Disallow: /tmp/
+# Block unnecessary files to preserve crawl budget
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/temp/
+Disallow: /*.css$
+Disallow: /*.js$
+Disallow: /admin/
+Disallow: /private/
+
+# Allow important directories
+Allow: /blog/
+Allow: /images/
+
+# Block specific user agents that waste server resources
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap locations
+Sitemap: https://pavethewaysealcoating.com/sitemap.xml
+Sitemap: https://pavethewaysealcoating.com/sitemap-index.xml
+
+# Last updated: January 2025

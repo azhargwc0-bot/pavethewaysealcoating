@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <!-- Main sitemap containing all pages -->
+    <sitemap>
+        <loc>https://pavethewaysealcoating.com/sitemap.xml</loc>
+        <lastmod>2025-01-15</lastmod>
+    </sitemap>
+    
+    <!-- Blog sitemap (can be separated for better organization) -->
+    <sitemap>
+        <loc>https://pavethewaysealcoating.com/sitemap-blog.xml</loc>
+        <lastmod>2025-01-15</lastmod>
+    </sitemap>
+    
+    <!-- Service pages sitemap -->
+    <sitemap>
+        <loc>https://pavethewaysealcoating.com/sitemap-services.xml</loc>
+        <lastmod>2025-01-15</lastmod>
+    </sitemap>
+    
+    <!-- Location pages sitemap -->
+    <sitemap>
+        <loc>https://pavethewaysealcoating.com/sitemap-locations.xml</loc>
+        <lastmod>2025-01-15</lastmod>
+    </sitemap>
+    
+</sitemapindex>
